@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Carousel</title>
+</head>
+<body>
+  <p>Hello, Carousel</p>
+  <article class="carousel">
+    <div class="button-wrap">
+      <button type="button" class="prev"> < </button>
+      <button type="button" class="next"> > </button>
+    </div>
+    <div class="indicator-wrap">
+      <button type="button" class="active"></button>
+      <button type="button"></button>
+      <button type="button"></button>
+      <button type="button"></button>
+      <button type="button"></button>
+    </div>
+    <div class="slide-wrap">
+      <ul>
+        <li style="transform: translateX(-600px);">image5</li>
+        <li style="transform: translateX(0px);">image1</li>
+        <li style="transform: translateX(600px);">image2</li>
+        <li style="transform: translateX(1200px);">image3</li>
+        <li style="transform: translateX(1800px);">image4</li>
+      </ul>
+    </div>
+  </article>
+  <script src="js/event.js" charset="utf-8"></script>
+</body>
+</html>

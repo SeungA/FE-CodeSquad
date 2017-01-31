@@ -1,0 +1,112 @@
+/*----- etc -----*/
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ul{
+  list-style: none;
+}
+
+.carousel{
+  width: 600px;
+  height: 400px;
+  position: relative;
+  margin: 0 auto;
+}
+
+p{
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 2;
+}
+
+/*----- class-list -----*/
+
+.indicator-wrap .active {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+/*----- button & nav -----*/
+
+.button-wrap button{
+  display: block;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 165px;
+  background: rgba(0, 0, 0, 0.4);
+  border: none;
+  font-size: 3em;
+  color: #fff;
+  z-index: 100;
+}
+
+.prev{
+  left: -35px;
+}
+
+.next{
+  right: -35px;
+}
+
+.indicator-wrap{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  width: 200px;
+  justify-content: space-around;
+  position: absolute;
+  left: 50%;
+  bottom: 7%;
+  margin-left: -100px;
+}
+
+.indicator-wrap button{
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: rgba(0, 0, 0, 0.4);
+  border: none;
+  border-radius: 15px;
+  z-index: 100;
+}
+
+/*----- images-wrap -----*/
+
+.slide-wrap ul{
+  width: 600px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide-wrap li{
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  text-align: center;
+  line-height: 400px;
+  font-size: 3em;
+  color: #fff;
+  background: red;
+  transition: all 1s;
+}
+
+.slide-wrap li:nth-child(2){
+  background: orange;
+}
+
+.slide-wrap li:nth-child(3){
+  background: green;
+}
+
+.slide-wrap li:nth-child(4){
+  background: blue;
+}
+
+.slide-wrap li:nth-child(5){
+  background: gray;
+}

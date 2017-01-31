@@ -1,0 +1,85 @@
+/*----- commen -----*/
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font: 1em/1.5 sans-serif;
+  color: #333;
+}
+
+ul{
+  list-style: none;
+}
+
+#wrapper{
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+/*----- header ------*/
+
+
+header{
+  padding: 3em 0;
+  text-align: center;
+}
+
+.userId{
+  font-weight: bold;
+}
+
+.userSNSInfo li{
+  display: inline-block;
+  margin-left: 0.5em;
+}
+
+.userSNSInfo li:first-child{
+  margin-left: 0;
+}
+
+.count{
+  color: orange;
+}
+
+
+/*----- tab-menu -----*/
+
+
+nav{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+
+.tab{
+  width: 25%;
+  padding: 1em 0;
+  text-align: center;
+  border: 1px solid #eee;
+  border-left: none;
+}
+
+.tab:first-child{
+  border-left: 1px solid #eee;
+}
+
+.selectedTab{
+  background: orange;
+  color: #fff;
+}
+
+/*----- tab-contents -----*/
+
+section{
+  padding: 4em;
+}
+
+.myName{
+  font-size: 1.5em;
+  font-weight: bold;
+}
